@@ -1,26 +1,28 @@
 # csci567-machine_learning
 
 Machine learning models -- CSCI 567 by Prof. Luo, Haipeng
+
 **Language :** Python 3.6.4
+
 **Tools :** only Numpy
 
 ## KNN
 
 **Structure :** 
-- f1_score**
-- class Distance**
+- f1_score
+- class Distance
     - euclidean_distance
     - minkowski_distance
     - cosine_similarity_distance
-**- class KNN**
+- class KNN
     - train
     - get_k_neighbors
     - predict
-**- class NormalizationScaler**
+- class NormalizationScaler
     - __call__ -- x′ = x / ||x||2
-**- class MinMaxScaler**
+- class MinMaxScaler**
     - __call__ -- x' = (x - min) / (max - min)
-**- class HyperparameterTuner**
+- class HyperparameterTuner
     - tuning_without_scaling
     - tuning_with_scaling
 	
@@ -29,9 +31,9 @@ Machine learning models -- CSCI 567 by Prof. Luo, Haipeng
 ## Linear Classifier
 
 **Structure :** 
-**Binary Classification**
+- Binary Classification
     - Perceptron vs. Logistic
-**Multiclass Classification**
+- Multiclass Classification
     - SGD vs. GD
 
 **Test :** supervised learning; test on synthetic data, two moon data and binarized MNIST data
@@ -39,17 +41,16 @@ Machine learning models -- CSCI 567 by Prof. Luo, Haipeng
 ## Regression
 
 **Structure :** 
-    - Regression without regularization
-    - Regression with regularization
-    - Tune the regularization parameter
-    - Polynomial regression -- mapping
+- Regression without regularization
+- Regression with regularization
+- Tune the regularization parameter
+- Polynomial regression -- mapping
 
 **Test :** supervised learning; test on wine data to predict wine quality
 
 ## Neural Network
-
-**Structure :** 
     ![image](https://github.com/TurenK/csci567-machine_learning/blob/main/Neural_Networks/structure.png)
+	
 **Test :** supervised learning; test on a subset of MNIST
 
 ## K-Means
