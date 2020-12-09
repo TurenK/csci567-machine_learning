@@ -49,7 +49,8 @@ Machine learning models -- CSCI 567 by Prof. Luo, Haipeng
 **Test :** supervised learning; test on wine data to predict wine quality
 
 ## Neural Network
-    ![image](https://github.com/TurenK/csci567-machine_learning/blob/main/Neural_Networks/structure.png)
+**Structure :**
+![image](https://github.com/TurenK/csci567-machine_learning/blob/main/Neural_Networks/structure.png)
 	
 **Test :** supervised learning; test on a subset of MNIST
 
